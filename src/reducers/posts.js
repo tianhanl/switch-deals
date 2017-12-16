@@ -1,6 +1,11 @@
-import { POSTS_PENDING, POSTS_FULFILLED, POSTS_REJECTED } from '../actions';
+import {
+  POSTS_PENDING,
+  POSTS_FULFILLED,
+  POSTS_REJECTED,
+  POSTS
+} from '../actions/actions';
 
-export function posts(
+export default function posts(
   state = {
     items: [],
     isRequesting: false,

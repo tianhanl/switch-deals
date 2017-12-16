@@ -1,26 +1,37 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import { requestPostsIfNeeded } from '../actions/action.js';
+import { requestPosts } from '../actions/actions';
 import Post from '../components/Post';
 
 class PostList extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
-    const { dispatch } = this.props;
-    dispatch(requestPostsIfNeeded());
+    this.props.getPosts();
   }
 
   render() {
-    <ul>{this.props.items.map(post => <Post key={post.id} post={post} />)}</ul>;
+    return (
+      <ul>
+        {this.props.items.map(post => (
+          <li key={post.id}>
+            <a>{post.title}</a>
+          </li>
+        ))}
+      </ul>
+    );
   }
 }
 
+const mapDispatchToProps = dispatch => {
+  return {
+    getPosts: () => {
+      dispatch(requestPosts());
+    }
+  };
+};
+
 function mapStateToProps(state) {
-  const { posts } = state;
+  const posts = state.posts;
   const { isRequesting, items, isInvalid } = posts || {
     isRequesting: false,
     items: [],
@@ -34,4 +45,4 @@ function mapStateToProps(state) {
   };
 }
 
-export default connect(mapStateToProps)(PostList);
+export default connect(mapStateToProps, mapDispatchToProps)(PostList);

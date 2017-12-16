@@ -6,8 +6,7 @@ export const POSTS_PENDING = 'POSTS_PENDING';
 export const POSTS_FULFILLED = 'POSTS_FULFILLED';
 export const POSTS_REJECTED = 'POSTS_REJECTED';
 
-const redditAPISrc = 'https://www.reddit.com/r/NintendoSwitchDeals.json'
-
+const redditAPISrc = 'https://www.reddit.com/r/NintendoSwitchDeals.json';
 
 function shouldRequestPosts(state) {
   const posts = state.posts;
@@ -20,18 +19,17 @@ function shouldRequestPosts(state) {
   }
 }
 
-function requestPosts() {
+export function requestPosts() {
   return {
     type: POSTS,
-    axios(redditAPISrc)
+    payload: axios.get(redditAPISrc)
   };
 }
 
 export function requestPostsIfNeeded() {
   return (dispatch, getState) => {
-    if ( shouldRequestPosts(getState()) ) {
+    if (shouldRequestPosts(getState())) {
       return dispatch(requestPosts());
     }
-  }
+  };
 }
-
