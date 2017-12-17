@@ -5,6 +5,7 @@ export const POSTS = 'POSTS';
 export const POSTS_PENDING = 'POSTS_PENDING';
 export const POSTS_FULFILLED = 'POSTS_FULFILLED';
 export const POSTS_REJECTED = 'POSTS_REJECTED';
+export const ADD_POST = 'ADD_POST';
 
 const redditAPISrc = 'https://www.reddit.com/r/NintendoSwitchDeals.json';
 
@@ -21,8 +22,21 @@ function shouldRequestPosts(state) {
 
 export function requestPosts() {
   return {
-    type: POSTS,
-    payload: axios.get(redditAPISrc)
+    type: 'POSTS',
+    payload: {
+      promise: new Promise((resolve, reject) => {
+        axios
+          .get(redditAPISrc)
+          .then(response => resolve(response), err => reject(err));
+      })
+    }
+  };
+}
+
+export function addPost(item) {
+  return {
+    type: ADD_POST,
+    item: item
   };
 }
 

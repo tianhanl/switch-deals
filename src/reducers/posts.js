@@ -2,17 +2,19 @@ import {
   POSTS_PENDING,
   POSTS_FULFILLED,
   POSTS_REJECTED,
-  POSTS
+  POSTS,
+  ADD_POST
 } from '../actions/actions';
 
-export default function posts(
+const posts = (
   state = {
     items: [],
     isRequesting: false,
     isInvalid: false
   },
   action
-) {
+) => {
+  console.log(action);
   switch (action.type) {
     case POSTS_PENDING:
       return Object.assign({}, state, {
@@ -22,13 +24,19 @@ export default function posts(
       return Object.assign({}, state, {
         isRequesting: false,
         isInvalid: false,
-        items: action.payload.data
+        items: action.payload.data.data.children
       });
     case POSTS_REJECTED:
       return Object.assign({}, state, {
         isInvalid: true
       });
+    case ADD_POST:
+      return Object.assign({}, state, {
+        items: [...state.items, action.item]
+      });
     default:
       return state;
   }
-}
+};
+
+export default posts;

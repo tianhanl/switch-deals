@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import { requestPosts } from '../actions/actions';
-import Post from '../components/Post';
+import { requestPosts, addPost } from '../actions/actions';
+// import Post from '../components/Post';
 
 class PostList extends React.Component {
   componentDidMount() {
@@ -13,8 +13,8 @@ class PostList extends React.Component {
     return (
       <ul>
         {this.props.items.map(post => (
-          <li key={post.id}>
-            <a>{post.title}</a>
+          <li key={post.data.id}>
+            <a>{post.data.title}</a>
           </li>
         ))}
       </ul>
@@ -26,6 +26,9 @@ const mapDispatchToProps = dispatch => {
   return {
     getPosts: () => {
       dispatch(requestPosts());
+    },
+    addPost: item => {
+      dispatch(addPost(item));
     }
   };
 };
