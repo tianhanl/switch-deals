@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 
 import { requestPosts, addPost } from '../actions/actions';
 // import Post from '../components/Post';
+import Post from '../components/Post';
 
 class PostList extends React.Component {
   componentDidMount() {
@@ -11,12 +12,8 @@ class PostList extends React.Component {
 
   render() {
     return (
-      <ul>
-        {this.props.items.map(post => (
-          <li key={post.data.id}>
-            <a>{post.data.title}</a>
-          </li>
-        ))}
+      <ul className="post-list">
+        {this.props.items.map(post => <Post key={post.data.id} post={post} />)}
       </ul>
     );
   }

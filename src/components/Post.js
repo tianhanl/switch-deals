@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Post = post => (
-  <li>
-    <a>{post.title}</a>
+const Post = ({ post }) => (
+  <li className="post-item">
+    <a>{post.data.title}</a>
   </li>
 );
 
