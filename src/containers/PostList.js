@@ -11,6 +11,14 @@ class PostList extends React.Component {
   }
 
   render() {
+    if (this.props.isRequesting) {
+      return <div>Loading...</div>;
+    }
+
+    if (this.props.isInvalid) {
+      return <div>There is a problem with the data</div>;
+    }
+
     return (
       <ul className="post-list">
         {this.props.items.map(post => <Post key={post.data.id} post={post} />)}

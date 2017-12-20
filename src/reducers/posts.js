@@ -28,6 +28,7 @@ const posts = (
       });
     case POSTS_REJECTED:
       return Object.assign({}, state, {
+        isRequesting: false,
         isInvalid: true
       });
     case ADD_POST:

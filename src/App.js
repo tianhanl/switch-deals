@@ -6,7 +6,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Switch Deals</h1>
+        <header>
+          <h1>Switch Deals</h1>
+        </header>
         <PostList />
       </div>
     );
