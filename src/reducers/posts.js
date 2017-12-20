@@ -2,7 +2,6 @@ import {
   POSTS_PENDING,
   POSTS_FULFILLED,
   POSTS_REJECTED,
-  POSTS,
   ADD_POST
 } from '../actions/actions';
 
@@ -14,7 +13,6 @@ const posts = (
   },
   action
 ) => {
-  console.log(action);
   switch (action.type) {
     case POSTS_PENDING:
       return Object.assign({}, state, {

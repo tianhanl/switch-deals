@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import PostList from './containers/PostList';
 
+import ConnectedSearchBar from './containers/ConnectedSearchBar';
+
 class App extends Component {
   render() {
     return (
@@ -9,6 +11,7 @@ class App extends Component {
         <header>
           <h1>Switch Deals</h1>
         </header>
+        <ConnectedSearchBar />
         <PostList />
       </div>
     );

@@ -21,7 +21,9 @@ class PostList extends React.Component {
 
     return (
       <ul className="post-list">
-        {this.props.items.map(post => <Post key={post.data.id} post={post} />)}
+        {this.props.items
+          .filter(post => post.data.title.indexOf(this.props.searchTerm) > -1)
+          .map(post => <Post key={post.data.id} post={post} />)}
       </ul>
     );
   }
@@ -49,7 +51,8 @@ function mapStateToProps(state) {
     posts,
     isRequesting,
     items,
-    isInvalid
+    isInvalid,
+    searchTerm: state.searchTerm
   };
 }
 

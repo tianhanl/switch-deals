@@ -1,11 +1,11 @@
 import axios from 'axios';
 
-export const POSTS = 'POSTS';
 // status actions used with redux-promise-middleware
 export const POSTS_PENDING = 'POSTS_PENDING';
 export const POSTS_FULFILLED = 'POSTS_FULFILLED';
 export const POSTS_REJECTED = 'POSTS_REJECTED';
 export const ADD_POST = 'ADD_POST';
+export const SET_SEARCH_TERM = 'SET_SEARCH_TERM';
 
 const redditAPISrc = 'https://www.reddit.com/r/NintendoSwitchDeals.json';
 
@@ -40,10 +40,9 @@ export function addPost(item) {
   };
 }
 
-export function requestPostsIfNeeded() {
-  return (dispatch, getState) => {
-    if (shouldRequestPosts(getState())) {
-      return dispatch(requestPosts());
-    }
+export function setSearchTerm(term) {
+  return {
+    type: SET_SEARCH_TERM,
+    term: term
   };
 }
