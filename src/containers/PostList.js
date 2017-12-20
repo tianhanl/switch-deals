@@ -22,7 +22,10 @@ class PostList extends React.Component {
     return (
       <ul className="post-list">
         {this.props.items
-          .filter(post => post.data.title.indexOf(this.props.searchTerm) > -1)
+          .filter(
+            post =>
+              post.data.title.toLowerCase().indexOf(this.props.searchTerm) > -1
+          )
           .map(post => <Post key={post.data.id} post={post} />)}
       </ul>
     );

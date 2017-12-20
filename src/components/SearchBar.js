@@ -8,7 +8,7 @@ const SearchBar = ({ value, onChange }) => (
     value={value}
     onChange={e => {
       e.preventDefault();
-      onChange(e.target.value);
+      onChange(e.target.value.toLowerCase());
     }}
   />
 );
