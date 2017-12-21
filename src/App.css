@@ -38,12 +38,13 @@ header > h1 {
 .post-item-meta {
   color: #9f9f9f;
   margin-top: 0.5em;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-.post-item-ups {
-  margin-right: 1em;
+.post-item-meta > span {
+  margin-right: 0.5em;
 }
-
 .teal {
   color: #19a896;
 }
