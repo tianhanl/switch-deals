@@ -65,7 +65,8 @@ header > h1 {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   width: 100%;
   margin-bottom: 0.75em;
-  border: none;
+  border: 0px transparent;
+  border-radius: 2px;
   font-size: 1.25em;
   padding: 0.5em;
   outline: none;
