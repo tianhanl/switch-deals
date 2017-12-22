@@ -13,6 +13,7 @@ const Post = ({ post }) => (
       <span className="post-item-time">
         {formatTime(post.data.created_utc)}
       </span>
+      <span className="post-item-author">by {post.data.author}</span>
       <span className={'post-item-tag ' + post.data.link_flair_css_class}>
         {post.data.link_flair_text}
       </span>

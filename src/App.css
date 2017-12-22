@@ -9,7 +9,7 @@ header > h1 {
 .App {
   padding: 1em;
   max-width: 960px;
-  width: 80vw;
+  width: 80%;
   margin: auto;
   color: #515151;
 }
@@ -38,8 +38,6 @@ header > h1 {
 .post-item-meta {
   color: #9f9f9f;
   margin-top: 0.5em;
-  display: flex;
-  flex-wrap: nowrap;
 }
 
 .post-item-meta > span {
