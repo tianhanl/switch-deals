@@ -10,6 +10,13 @@ class PostList extends React.Component {
     this.props.getPosts(this.props.filter);
   }
 
+  // redo requesting when filter changes
+  componentWillReceiveProps(nextProps) {
+    if (!this.props.isRequesting && !this.props.posts[nextProps.filter]) {
+      this.props.getPosts(nextProps.filter);
+    }
+  }
+
   render() {
     if (this.props.isRequesting) {
       return <div>Loading...</div>;
