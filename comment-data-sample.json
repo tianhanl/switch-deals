@@ -1,0 +1,816 @@
+[
+  {
+    "kind": "Listing",
+    "data": {
+      "modhash": "",
+      "whitelist_status": "all_ads",
+      "children": [
+        {
+          "kind": "t3",
+          "data": {
+            "domain": "ebay.com",
+            "approved_at_utc": null,
+            "mod_reason_by": null,
+            "banned_by": null,
+            "subreddit_id": "t5_3h4em",
+            "thumbnail_width": 140,
+            "subreddit": "NintendoSwitchDeals",
+            "selftext_html": null,
+            "selftext": "",
+            "likes": null,
+            "suggested_sort": null,
+            "mod_note": null,
+            "user_reports": [],
+            "secure_media": null,
+            "is_reddit_media_domain": false,
+            "link_flair_text": null,
+            "id": "7ldfbo",
+            "banned_at_utc": null,
+            "mod_reason_title": null,
+            "view_count": null,
+            "archived": false,
+            "clicked": false,
+            "report_reasons": null,
+            "author": "rusty022",
+            "num_crossposts": 0,
+            "saved": false,
+            "can_mod_post": false,
+            "is_crosspostable": false,
+            "pinned": false,
+            "score": 35,
+            "approved_by": null,
+            "over_18": false,
+            "removal_reason": null,
+            "hidden": false,
+            "preview": {
+              "images": [
+                {
+                  "source": {
+                    "url":
+                      "https://i.redditmedia.com/M-LWC1BVObFW8x9o-i_Cj2KtRn7u3YIXeJV3kWAS79w.jpg?s=a88ec497fa0a8a0bc76d300fc7a5f806",
+                    "width": 794,
+                    "height": 724
+                  },
+                  "resolutions": [
+                    {
+                      "url":
+                        "https://i.redditmedia.com/M-LWC1BVObFW8x9o-i_Cj2KtRn7u3YIXeJV3kWAS79w.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=eb973af1696385d4e2801587134eacd8",
+                      "width": 108,
+                      "height": 98
+                    },
+                    {
+                      "url":
+                        "https://i.redditmedia.com/M-LWC1BVObFW8x9o-i_Cj2KtRn7u3YIXeJV3kWAS79w.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=373320b5c2310cd2900a7c1782a27e70",
+                      "width": 216,
+                      "height": 196
+                    },
+                    {
+                      "url":
+                        "https://i.redditmedia.com/M-LWC1BVObFW8x9o-i_Cj2KtRn7u3YIXeJV3kWAS79w.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=5d1f16317fd31566eba6029f630b3ed0",
+                      "width": 320,
+                      "height": 291
+                    },
+                    {
+                      "url":
+                        "https://i.redditmedia.com/M-LWC1BVObFW8x9o-i_Cj2KtRn7u3YIXeJV3kWAS79w.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=77a60170c03de307347c6a2932fc198b",
+                      "width": 640,
+                      "height": 583
+                    }
+                  ],
+                  "variants": {},
+                  "id": "psGvrm9ZTPqk2hOJhfNqIj5MwxLcoFYx6PhV2A3PYtc"
+                }
+              ],
+              "enabled": false
+            },
+            "num_comments": 11,
+            "thumbnail":
+              "https://b.thumbs.redditmedia.com/agRDAH-ZNnptxkxWC2C3Pkvwf1RWmi3FgZD5XwfxlmY.jpg",
+            "hide_score": false,
+            "edited": false,
+            "link_flair_css_class": null,
+            "author_flair_css_class": null,
+            "contest_mode": false,
+            "gilded": 0,
+            "locked": false,
+            "downs": 0,
+            "brand_safe": true,
+            "secure_media_embed": {},
+            "media_embed": {},
+            "post_hint": "link",
+            "can_gild": false,
+            "thumbnail_height": 127,
+            "parent_whitelist_status": "all_ads",
+            "name": "t3_7ldfbo",
+            "spoiler": false,
+            "permalink":
+              "/r/NintendoSwitchDeals/comments/7ldfbo/ebay_usa_100_thinkgeek_gc_works_at_gamestop_90/",
+            "subreddit_type": "public",
+            "whitelist_status": "all_ads",
+            "stickied": false,
+            "created": 1513928076.0,
+            "url": "https://www.ebay.com/itm/253313371812",
+            "author_flair_text": null,
+            "quarantine": false,
+            "title":
+              "[ebay / USA] $100 ThinkGeek GC (works at GameStop) - $90 ... Switch for $270 plus taxes.",
+            "created_utc": 1513899276.0,
+            "subreddit_name_prefixed": "r/NintendoSwitchDeals",
+            "distinguished": null,
+            "media": null,
+            "upvote_ratio": 0.91,
+            "mod_reports": [],
+            "is_self": false,
+            "visited": false,
+            "num_reports": null,
+            "is_video": false,
+            "ups": 35
+          }
+        }
+      ],
+      "after": null,
+      "before": null
+    }
+  },
+  {
+    "kind": "Listing",
+    "data": {
+      "modhash": "",
+      "whitelist_status": "all_ads",
+      "children": [
+        {
+          "kind": "t1",
+          "data": {
+            "subreddit_id": "t5_3h4em",
+            "approved_at_utc": null,
+            "mod_reason_by": null,
+            "banned_by": null,
+            "removal_reason": null,
+            "link_id": "t3_7ldfbo",
+            "likes": null,
+            "replies": {
+              "kind": "Listing",
+              "data": {
+                "modhash": "",
+                "whitelist_status": "all_ads",
+                "children": [
+                  {
+                    "kind": "t1",
+                    "data": {
+                      "subreddit_id": "t5_3h4em",
+                      "approved_at_utc": null,
+                      "mod_reason_by": null,
+                      "banned_by": null,
+                      "removal_reason": null,
+                      "link_id": "t3_7ldfbo",
+                      "likes": null,
+                      "replies": {
+                        "kind": "Listing",
+                        "data": {
+                          "modhash": "",
+                          "whitelist_status": "all_ads",
+                          "children": [
+                            {
+                              "kind": "t1",
+                              "data": {
+                                "subreddit_id": "t5_3h4em",
+                                "approved_at_utc": null,
+                                "mod_reason_by": null,
+                                "banned_by": null,
+                                "removal_reason": null,
+                                "link_id": "t3_7ldfbo",
+                                "likes": null,
+                                "replies": {
+                                  "kind": "Listing",
+                                  "data": {
+                                    "modhash": "",
+                                    "whitelist_status": "all_ads",
+                                    "children": [
+                                      {
+                                        "kind": "t1",
+                                        "data": {
+                                          "subreddit_id": "t5_3h4em",
+                                          "approved_at_utc": null,
+                                          "mod_reason_by": null,
+                                          "banned_by": null,
+                                          "removal_reason": null,
+                                          "link_id": "t3_7ldfbo",
+                                          "likes": null,
+                                          "replies": {
+                                            "kind": "Listing",
+                                            "data": {
+                                              "modhash": "",
+                                              "whitelist_status": "all_ads",
+                                              "children": [
+                                                {
+                                                  "kind": "t1",
+                                                  "data": {
+                                                    "subreddit_id": "t5_3h4em",
+                                                    "approved_at_utc": null,
+                                                    "mod_reason_by": null,
+                                                    "banned_by": null,
+                                                    "removal_reason": null,
+                                                    "link_id": "t3_7ldfbo",
+                                                    "likes": null,
+                                                    "replies": "",
+                                                    "user_reports": [],
+                                                    "saved": false,
+                                                    "id": "drlnrsq",
+                                                    "banned_at_utc": null,
+                                                    "mod_reason_title": null,
+                                                    "gilded": 0,
+                                                    "archived": false,
+                                                    "report_reasons": null,
+                                                    "author": "MagusarLibrom",
+                                                    "can_mod_post": false,
+                                                    "ups": 1,
+                                                    "parent_id": "t1_drliy37",
+                                                    "score": 1,
+                                                    "approved_by": null,
+                                                    "downs": 0,
+                                                    "body":
+                                                      "Yes, I went into the store with print outs of each card. ",
+                                                    "edited": false,
+                                                    "author_flair_css_class": null,
+                                                    "collapsed": false,
+                                                    "is_submitter": false,
+                                                    "collapsed_reason": null,
+                                                    "body_html":
+                                                      "&lt;div class=\"md\"&gt;&lt;p&gt;Yes, I went into the store with print outs of each card. &lt;/p&gt;\n&lt;/div&gt;",
+                                                    "stickied": false,
+                                                    "subreddit_type": "public",
+                                                    "can_gild": true,
+                                                    "subreddit":
+                                                      "NintendoSwitchDeals",
+                                                    "score_hidden": false,
+                                                    "permalink":
+                                                      "/r/NintendoSwitchDeals/comments/7ldfbo/ebay_usa_100_thinkgeek_gc_works_at_gamestop_90/drlnrsq/",
+                                                    "num_reports": null,
+                                                    "name": "t1_drlnrsq",
+                                                    "created": 1513939860.0,
+                                                    "author_flair_text": null,
+                                                    "created_utc": 1513911060.0,
+                                                    "subreddit_name_prefixed":
+                                                      "r/NintendoSwitchDeals",
+                                                    "controversiality": 0,
+                                                    "depth": 4,
+                                                    "mod_reports": [],
+                                                    "mod_note": null,
+                                                    "distinguished": null
+                                                  }
+                                                }
+                                              ],
+                                              "after": null,
+                                              "before": null
+                                            }
+                                          },
+                                          "user_reports": [],
+                                          "saved": false,
+                                          "id": "drliy37",
+                                          "banned_at_utc": null,
+                                          "mod_reason_title": null,
+                                          "gilded": 0,
+                                          "archived": false,
+                                          "report_reasons": null,
+                                          "author": "SorryiGoHard",
+                                          "can_mod_post": false,
+                                          "ups": 2,
+                                          "parent_id": "t1_drlimtk",
+                                          "score": 2,
+                                          "approved_by": null,
+                                          "downs": 0,
+                                          "body":
+                                            "Yeah it's definitely a thing with new accounts. Did you go in store to use the gift cards? ",
+                                          "edited": false,
+                                          "author_flair_css_class": null,
+                                          "collapsed": false,
+                                          "is_submitter": false,
+                                          "collapsed_reason": null,
+                                          "body_html":
+                                            "&lt;div class=\"md\"&gt;&lt;p&gt;Yeah it&amp;#39;s definitely a thing with new accounts. Did you go in store to use the gift cards? &lt;/p&gt;\n&lt;/div&gt;",
+                                          "stickied": false,
+                                          "subreddit_type": "public",
+                                          "can_gild": true,
+                                          "subreddit": "NintendoSwitchDeals",
+                                          "score_hidden": false,
+                                          "permalink":
+                                            "/r/NintendoSwitchDeals/comments/7ldfbo/ebay_usa_100_thinkgeek_gc_works_at_gamestop_90/drliy37/",
+                                          "num_reports": null,
+                                          "name": "t1_drliy37",
+                                          "created": 1513933799.0,
+                                          "author_flair_text": null,
+                                          "created_utc": 1513904999.0,
+                                          "subreddit_name_prefixed":
+                                            "r/NintendoSwitchDeals",
+                                          "controversiality": 0,
+                                          "depth": 3,
+                                          "mod_reports": [],
+                                          "mod_note": null,
+                                          "distinguished": null
+                                        }
+                                      }
+                                    ],
+                                    "after": null,
+                                    "before": null
+                                  }
+                                },
+                                "user_reports": [],
+                                "saved": false,
+                                "id": "drlimtk",
+                                "banned_at_utc": null,
+                                "mod_reason_title": null,
+                                "gilded": 0,
+                                "archived": false,
+                                "report_reasons": null,
+                                "author": "MagusarLibrom",
+                                "can_mod_post": false,
+                                "ups": 4,
+                                "parent_id": "t1_drlia58",
+                                "score": 4,
+                                "approved_by": null,
+                                "downs": 0,
+                                "body":
+                                  "I bought three last night in one transaction, and then I bought a Switch for my nephew today. I have had an eBay account for over 10yrs, so maybe new accounts have a limit. ",
+                                "edited": false,
+                                "author_flair_css_class": null,
+                                "collapsed": false,
+                                "is_submitter": false,
+                                "collapsed_reason": null,
+                                "body_html":
+                                  "&lt;div class=\"md\"&gt;&lt;p&gt;I bought three last night in one transaction, and then I bought a Switch for my nephew today. I have had an eBay account for over 10yrs, so maybe new accounts have a limit. &lt;/p&gt;\n&lt;/div&gt;",
+                                "stickied": false,
+                                "subreddit_type": "public",
+                                "can_gild": true,
+                                "subreddit": "NintendoSwitchDeals",
+                                "score_hidden": false,
+                                "permalink":
+                                  "/r/NintendoSwitchDeals/comments/7ldfbo/ebay_usa_100_thinkgeek_gc_works_at_gamestop_90/drlimtk/",
+                                "num_reports": null,
+                                "name": "t1_drlimtk",
+                                "created": 1513933390.0,
+                                "author_flair_text": null,
+                                "created_utc": 1513904590.0,
+                                "subreddit_name_prefixed":
+                                  "r/NintendoSwitchDeals",
+                                "controversiality": 0,
+                                "depth": 2,
+                                "mod_reports": [],
+                                "mod_note": null,
+                                "distinguished": null
+                              }
+                            },
+                            {
+                              "kind": "t1",
+                              "data": {
+                                "subreddit_id": "t5_3h4em",
+                                "approved_at_utc": null,
+                                "mod_reason_by": null,
+                                "banned_by": null,
+                                "removal_reason": null,
+                                "link_id": "t3_7ldfbo",
+                                "likes": null,
+                                "replies": "",
+                                "user_reports": [],
+                                "saved": false,
+                                "id": "drlifax",
+                                "banned_at_utc": null,
+                                "mod_reason_title": null,
+                                "gilded": 0,
+                                "archived": false,
+                                "report_reasons": null,
+                                "author": "SorryiGoHard",
+                                "can_mod_post": false,
+                                "ups": 1,
+                                "parent_id": "t1_drlia58",
+                                "score": 1,
+                                "approved_by": null,
+                                "downs": 0,
+                                "body": "It didn't even let me do 1",
+                                "edited": false,
+                                "author_flair_css_class": null,
+                                "collapsed": false,
+                                "is_submitter": false,
+                                "collapsed_reason": null,
+                                "body_html":
+                                  "&lt;div class=\"md\"&gt;&lt;p&gt;It didn&amp;#39;t even let me do 1&lt;/p&gt;\n&lt;/div&gt;",
+                                "stickied": false,
+                                "subreddit_type": "public",
+                                "can_gild": true,
+                                "subreddit": "NintendoSwitchDeals",
+                                "score_hidden": false,
+                                "permalink":
+                                  "/r/NintendoSwitchDeals/comments/7ldfbo/ebay_usa_100_thinkgeek_gc_works_at_gamestop_90/drlifax/",
+                                "num_reports": null,
+                                "name": "t1_drlifax",
+                                "created": 1513933121.0,
+                                "author_flair_text": null,
+                                "created_utc": 1513904321.0,
+                                "subreddit_name_prefixed":
+                                  "r/NintendoSwitchDeals",
+                                "controversiality": 0,
+                                "depth": 2,
+                                "mod_reports": [],
+                                "mod_note": null,
+                                "distinguished": null
+                              }
+                            }
+                          ],
+                          "after": null,
+                          "before": null
+                        }
+                      },
+                      "user_reports": [],
+                      "saved": false,
+                      "id": "drlia58",
+                      "banned_at_utc": null,
+                      "mod_reason_title": null,
+                      "gilded": 0,
+                      "archived": false,
+                      "report_reasons": null,
+                      "author": "rusty022",
+                      "can_mod_post": false,
+                      "ups": 2,
+                      "parent_id": "t1_drlhzi0",
+                      "score": 2,
+                      "approved_by": null,
+                      "downs": 0,
+                      "body":
+                        "To be honest, I didn\u2019t actually buy this. So I\u2019m not sure if checkout let\u2019s you do 3 at a time...",
+                      "edited": false,
+                      "author_flair_css_class": null,
+                      "collapsed": false,
+                      "is_submitter": true,
+                      "collapsed_reason": null,
+                      "body_html":
+                        "&lt;div class=\"md\"&gt;&lt;p&gt;To be honest, I didn\u2019t actually buy this. So I\u2019m not sure if checkout let\u2019s you do 3 at a time...&lt;/p&gt;\n&lt;/div&gt;",
+                      "stickied": false,
+                      "subreddit_type": "public",
+                      "can_gild": true,
+                      "subreddit": "NintendoSwitchDeals",
+                      "score_hidden": false,
+                      "permalink":
+                        "/r/NintendoSwitchDeals/comments/7ldfbo/ebay_usa_100_thinkgeek_gc_works_at_gamestop_90/drlia58/",
+                      "num_reports": null,
+                      "name": "t1_drlia58",
+                      "created": 1513932942.0,
+                      "author_flair_text": null,
+                      "created_utc": 1513904142.0,
+                      "subreddit_name_prefixed": "r/NintendoSwitchDeals",
+                      "controversiality": 0,
+                      "depth": 1,
+                      "mod_reports": [],
+                      "mod_note": null,
+                      "distinguished": null
+                    }
+                  }
+                ],
+                "after": null,
+                "before": null
+              }
+            },
+            "user_reports": [],
+            "saved": false,
+            "id": "drlhzi0",
+            "banned_at_utc": null,
+            "mod_reason_title": null,
+            "gilded": 0,
+            "archived": false,
+            "report_reasons": null,
+            "author": "SorryiGoHard",
+            "can_mod_post": false,
+            "ups": 4,
+            "parent_id": "t3_7ldfbo",
+            "score": 4,
+            "approved_by": null,
+            "downs": 0,
+            "body":
+              "Just made an eBay account and it won't let me check out because of some bs buying limit...",
+            "edited": false,
+            "author_flair_css_class": null,
+            "collapsed": false,
+            "is_submitter": false,
+            "collapsed_reason": null,
+            "body_html":
+              "&lt;div class=\"md\"&gt;&lt;p&gt;Just made an eBay account and it won&amp;#39;t let me check out because of some bs buying limit...&lt;/p&gt;\n&lt;/div&gt;",
+            "stickied": false,
+            "subreddit_type": "public",
+            "can_gild": true,
+            "subreddit": "NintendoSwitchDeals",
+            "score_hidden": false,
+            "permalink":
+              "/r/NintendoSwitchDeals/comments/7ldfbo/ebay_usa_100_thinkgeek_gc_works_at_gamestop_90/drlhzi0/",
+            "num_reports": null,
+            "name": "t1_drlhzi0",
+            "created": 1513932566.0,
+            "author_flair_text": null,
+            "created_utc": 1513903766.0,
+            "subreddit_name_prefixed": "r/NintendoSwitchDeals",
+            "controversiality": 0,
+            "depth": 0,
+            "mod_reports": [],
+            "mod_note": null,
+            "distinguished": null
+          }
+        },
+        {
+          "kind": "t1",
+          "data": {
+            "subreddit_id": "t5_3h4em",
+            "approved_at_utc": null,
+            "mod_reason_by": null,
+            "banned_by": null,
+            "removal_reason": null,
+            "link_id": "t3_7ldfbo",
+            "likes": null,
+            "replies": {
+              "kind": "Listing",
+              "data": {
+                "modhash": "",
+                "whitelist_status": "all_ads",
+                "children": [
+                  {
+                    "kind": "t1",
+                    "data": {
+                      "subreddit_id": "t5_3h4em",
+                      "approved_at_utc": null,
+                      "mod_reason_by": null,
+                      "banned_by": null,
+                      "removal_reason": null,
+                      "link_id": "t3_7ldfbo",
+                      "likes": null,
+                      "replies": {
+                        "kind": "Listing",
+                        "data": {
+                          "modhash": "",
+                          "whitelist_status": "all_ads",
+                          "children": [
+                            {
+                              "kind": "t1",
+                              "data": {
+                                "subreddit_id": "t5_3h4em",
+                                "approved_at_utc": null,
+                                "mod_reason_by": null,
+                                "banned_by": null,
+                                "removal_reason": null,
+                                "link_id": "t3_7ldfbo",
+                                "likes": null,
+                                "replies": "",
+                                "user_reports": [],
+                                "saved": false,
+                                "id": "drlngmk",
+                                "banned_at_utc": null,
+                                "mod_reason_title": null,
+                                "gilded": 0,
+                                "archived": false,
+                                "report_reasons": null,
+                                "author": "Oksana25",
+                                "can_mod_post": false,
+                                "ups": 1,
+                                "parent_id": "t1_drll121",
+                                "score": 1,
+                                "approved_by": null,
+                                "downs": 0,
+                                "body":
+                                  "They did, thanks for posting! Was watching for a gift card sale for the last week and pounced on this one.",
+                                "edited": false,
+                                "author_flair_css_class": null,
+                                "collapsed": false,
+                                "is_submitter": false,
+                                "collapsed_reason": null,
+                                "body_html":
+                                  "&lt;div class=\"md\"&gt;&lt;p&gt;They did, thanks for posting! Was watching for a gift card sale for the last week and pounced on this one.&lt;/p&gt;\n&lt;/div&gt;",
+                                "stickied": false,
+                                "subreddit_type": "public",
+                                "can_gild": true,
+                                "subreddit": "NintendoSwitchDeals",
+                                "score_hidden": false,
+                                "permalink":
+                                  "/r/NintendoSwitchDeals/comments/7ldfbo/ebay_usa_100_thinkgeek_gc_works_at_gamestop_90/drlngmk/",
+                                "num_reports": null,
+                                "name": "t1_drlngmk",
+                                "created": 1513939475.0,
+                                "author_flair_text": null,
+                                "created_utc": 1513910675.0,
+                                "subreddit_name_prefixed":
+                                  "r/NintendoSwitchDeals",
+                                "controversiality": 0,
+                                "depth": 2,
+                                "mod_reports": [],
+                                "mod_note": null,
+                                "distinguished": null
+                              }
+                            }
+                          ],
+                          "after": null,
+                          "before": null
+                        }
+                      },
+                      "user_reports": [],
+                      "saved": false,
+                      "id": "drll121",
+                      "banned_at_utc": null,
+                      "mod_reason_title": null,
+                      "gilded": 0,
+                      "archived": false,
+                      "report_reasons": null,
+                      "author": "rusty022",
+                      "can_mod_post": false,
+                      "ups": 2,
+                      "parent_id": "t1_drlkiog",
+                      "score": 2,
+                      "approved_by": null,
+                      "downs": 0,
+                      "body":
+                        "Dang. They must send the codes quickly.\n\nGlad it worked for you :)",
+                      "edited": false,
+                      "author_flair_css_class": null,
+                      "collapsed": false,
+                      "is_submitter": true,
+                      "collapsed_reason": null,
+                      "body_html":
+                        "&lt;div class=\"md\"&gt;&lt;p&gt;Dang. They must send the codes quickly.&lt;/p&gt;\n\n&lt;p&gt;Glad it worked for you :)&lt;/p&gt;\n&lt;/div&gt;",
+                      "stickied": false,
+                      "subreddit_type": "public",
+                      "can_gild": true,
+                      "subreddit": "NintendoSwitchDeals",
+                      "score_hidden": false,
+                      "permalink":
+                        "/r/NintendoSwitchDeals/comments/7ldfbo/ebay_usa_100_thinkgeek_gc_works_at_gamestop_90/drll121/",
+                      "num_reports": null,
+                      "name": "t1_drll121",
+                      "created": 1513936447.0,
+                      "author_flair_text": null,
+                      "created_utc": 1513907647.0,
+                      "subreddit_name_prefixed": "r/NintendoSwitchDeals",
+                      "controversiality": 0,
+                      "depth": 1,
+                      "mod_reports": [],
+                      "mod_note": null,
+                      "distinguished": null
+                    }
+                  }
+                ],
+                "after": null,
+                "before": null
+              }
+            },
+            "user_reports": [],
+            "saved": false,
+            "id": "drlkiog",
+            "banned_at_utc": null,
+            "mod_reason_title": null,
+            "gilded": 0,
+            "archived": false,
+            "report_reasons": null,
+            "author": "Oksana25",
+            "can_mod_post": false,
+            "ups": 2,
+            "parent_id": "t3_7ldfbo",
+            "score": 2,
+            "approved_by": null,
+            "downs": 0,
+            "body":
+              "Thanks, just bought 3 and got a switch. GameStop employee told me they didn\u2019t accept ThinkGeek GC but I had them try scanning it and it worked... \n \n",
+            "edited": false,
+            "author_flair_css_class": null,
+            "collapsed": false,
+            "is_submitter": false,
+            "collapsed_reason": null,
+            "body_html":
+              "&lt;div class=\"md\"&gt;&lt;p&gt;Thanks, just bought 3 and got a switch. GameStop employee told me they didn\u2019t accept ThinkGeek GC but I had them try scanning it and it worked... &lt;/p&gt;\n&lt;/div&gt;",
+            "stickied": false,
+            "subreddit_type": "public",
+            "can_gild": true,
+            "subreddit": "NintendoSwitchDeals",
+            "score_hidden": false,
+            "permalink":
+              "/r/NintendoSwitchDeals/comments/7ldfbo/ebay_usa_100_thinkgeek_gc_works_at_gamestop_90/drlkiog/",
+            "num_reports": null,
+            "name": "t1_drlkiog",
+            "created": 1513935805.0,
+            "author_flair_text": null,
+            "created_utc": 1513907005.0,
+            "subreddit_name_prefixed": "r/NintendoSwitchDeals",
+            "controversiality": 0,
+            "depth": 0,
+            "mod_reports": [],
+            "mod_note": null,
+            "distinguished": null
+          }
+        },
+        {
+          "kind": "t1",
+          "data": {
+            "subreddit_id": "t5_3h4em",
+            "approved_at_utc": null,
+            "mod_reason_by": null,
+            "banned_by": null,
+            "removal_reason": null,
+            "link_id": "t3_7ldfbo",
+            "likes": null,
+            "replies": "",
+            "user_reports": [],
+            "saved": false,
+            "id": "drltn8k",
+            "banned_at_utc": null,
+            "mod_reason_title": null,
+            "gilded": 0,
+            "archived": false,
+            "report_reasons": null,
+            "author": "NuMystic",
+            "can_mod_post": false,
+            "ups": 1,
+            "parent_id": "t3_7ldfbo",
+            "score": 1,
+            "approved_by": null,
+            "downs": 0,
+            "body":
+              "Don't need a Switch or GameStop credit right now but kudos to the OP just for letting me know for future reference that ThinkGeek cards can be used at GameStop. Handy. \n\nAnyone know whether it works the other way too? (GameStop cards at ThinkGeek.com)",
+            "edited": false,
+            "author_flair_css_class": null,
+            "collapsed": false,
+            "is_submitter": false,
+            "collapsed_reason": null,
+            "body_html":
+              "&lt;div class=\"md\"&gt;&lt;p&gt;Don&amp;#39;t need a Switch or GameStop credit right now but kudos to the OP just for letting me know for future reference that ThinkGeek cards can be used at GameStop. Handy. &lt;/p&gt;\n\n&lt;p&gt;Anyone know whether it works the other way too? (GameStop cards at ThinkGeek.com)&lt;/p&gt;\n&lt;/div&gt;",
+            "stickied": false,
+            "subreddit_type": "public",
+            "can_gild": true,
+            "subreddit": "NintendoSwitchDeals",
+            "score_hidden": false,
+            "permalink":
+              "/r/NintendoSwitchDeals/comments/7ldfbo/ebay_usa_100_thinkgeek_gc_works_at_gamestop_90/drltn8k/",
+            "num_reports": null,
+            "name": "t1_drltn8k",
+            "created": 1513947836.0,
+            "author_flair_text": null,
+            "created_utc": 1513919036.0,
+            "subreddit_name_prefixed": "r/NintendoSwitchDeals",
+            "controversiality": 0,
+            "depth": 0,
+            "mod_reports": [],
+            "mod_note": null,
+            "distinguished": null
+          }
+        },
+        {
+          "kind": "t1",
+          "data": {
+            "subreddit_id": "t5_3h4em",
+            "approved_at_utc": null,
+            "mod_reason_by": null,
+            "banned_by": null,
+            "removal_reason": null,
+            "link_id": "t3_7ldfbo",
+            "likes": null,
+            "replies": "",
+            "user_reports": [],
+            "saved": false,
+            "id": "drm4esm",
+            "banned_at_utc": null,
+            "mod_reason_title": null,
+            "gilded": 0,
+            "archived": false,
+            "report_reasons": null,
+            "author": "Whiskey_Biscuit",
+            "can_mod_post": false,
+            "ups": 1,
+            "parent_id": "t3_7ldfbo",
+            "score": 1,
+            "approved_by": null,
+            "downs": 0,
+            "body":
+              "Are we 100 percent certain these work at GameStop? Thinking of jumping on this deal but I want to be sure first. I understand that they are both the same company but I didn't know if you could only by certain merchandise with certain cards...",
+            "edited": false,
+            "author_flair_css_class": null,
+            "collapsed": false,
+            "is_submitter": false,
+            "collapsed_reason": null,
+            "body_html":
+              "&lt;div class=\"md\"&gt;&lt;p&gt;Are we 100 percent certain these work at GameStop? Thinking of jumping on this deal but I want to be sure first. I understand that they are both the same company but I didn&amp;#39;t know if you could only by certain merchandise with certain cards...&lt;/p&gt;\n&lt;/div&gt;",
+            "stickied": false,
+            "subreddit_type": "public",
+            "can_gild": true,
+            "subreddit": "NintendoSwitchDeals",
+            "score_hidden": true,
+            "permalink":
+              "/r/NintendoSwitchDeals/comments/7ldfbo/ebay_usa_100_thinkgeek_gc_works_at_gamestop_90/drm4esm/",
+            "num_reports": null,
+            "name": "t1_drm4esm",
+            "created": 1513971779.0,
+            "author_flair_text": null,
+            "created_utc": 1513942979.0,
+            "subreddit_name_prefixed": "r/NintendoSwitchDeals",
+            "controversiality": 0,
+            "depth": 0,
+            "mod_reports": [],
+            "mod_note": null,
+            "distinguished": null
+          }
+        }
+      ],
+      "after": null,
+      "before": null
+    }
+  }
+]

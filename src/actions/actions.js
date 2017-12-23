@@ -9,6 +9,9 @@ export const SET_SEARCH_TERM = 'SET_SEARCH_TERM';
 
 const redditAPISrc = 'https://www.reddit.com/r/NintendoSwitchDeals.json';
 
+const redditCommentAPISrc = id =>
+  `https://www.reddit.com/r/NintendoSwitchDeals/comments/${id}.json`;
+
 function shouldRequestPosts(state) {
   const posts = state.posts;
   if (!posts) {
