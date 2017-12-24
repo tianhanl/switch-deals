@@ -19,7 +19,7 @@ class PostList extends React.Component {
 
   render() {
     if (this.props.isRequesting) {
-      return <div>Loading...</div>;
+      return <p>Loading...</p>;
     }
 
     if (this.props.isInvalid) {
