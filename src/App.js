@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Redirect,
+  Switch
+} from 'react-router-dom';
 import ListView from './pages/ListView';
 
 class App extends Component {
@@ -34,7 +40,10 @@ class App extends Component {
               </ul>
             </nav>
           </header>
-          <Route path="/:filter" component={ListView} />
+          <Switch>
+            <Route path="/:filter" component={ListView} />
+            <Redirect from="/" to="/hot" />
+          </Switch>
         </div>
       </Router>
     );
