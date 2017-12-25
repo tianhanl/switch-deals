@@ -7,16 +7,27 @@ import Post from '../components/Post';
 
 class PostList extends React.Component {
   componentDidMount() {
-    this.props.getPosts();
+    this.props.getPosts(this.props.filter);
+  }
+
+  // redo requesting when filter changes
+  componentWillReceiveProps(nextProps) {
+    if (!this.props.isRequesting && !this.props.posts[nextProps.filter]) {
+      this.props.getPosts(nextProps.filter);
+    }
   }
 
   render() {
     if (this.props.isRequesting) {
-      return <div>Loading...</div>;
+      return <p>Loading...</p>;
     }
 
     if (this.props.isInvalid) {
       return <div>There is a problem with the data</div>;
+    }
+
+    if (!this.props.items) {
+      return <p>No items found</p>;
     }
 
     return (
@@ -34,8 +45,8 @@ class PostList extends React.Component {
 
 const mapDispatchToProps = dispatch => {
   return {
-    getPosts: () => {
-      dispatch(requestPosts());
+    getPosts: filter => {
+      dispatch(requestPosts(filter));
     },
     addPost: item => {
       dispatch(addPost(item));
@@ -43,18 +54,16 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-function mapStateToProps(state) {
+function mapStateToProps(state, ownProps) {
   const posts = state.posts;
-  const { isRequesting, items, isInvalid } = posts || {
-    isRequesting: false,
-    items: [],
-    isInvalid: false
-  };
+  const { isRequesting, isInvalid } = posts;
+  const items = posts[ownProps.filter] ? posts[ownProps.filter].items : null;
   return {
     posts,
     isRequesting,
     items,
     isInvalid,
+    filter: ownProps.filter,
     searchTerm: state.searchTerm
   };
 }

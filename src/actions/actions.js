@@ -7,31 +7,32 @@ export const POSTS_REJECTED = 'POSTS_REJECTED';
 export const ADD_POST = 'ADD_POST';
 export const SET_SEARCH_TERM = 'SET_SEARCH_TERM';
 
-const redditAPISrc = 'https://www.reddit.com/r/NintendoSwitchDeals.json';
+const redditAPISrc = filter =>
+  `https://www.reddit.com/r/NintendoSwitchDeals/${filter}.json`;
 
-const redditCommentAPISrc = id =>
-  `https://www.reddit.com/r/NintendoSwitchDeals/comments/${id}.json`;
+// function shouldRequestPosts(state) {
+//   const posts = state.posts;
+//   if (!posts) {
+//     return true;
+//   } else if (posts.isRequesting) {
+//     return false;
+//   } else {
+//     return posts.isInvalid;
+//   }
+// }
 
-function shouldRequestPosts(state) {
-  const posts = state.posts;
-  if (!posts) {
-    return true;
-  } else if (posts.isRequesting) {
-    return false;
-  } else {
-    return posts.isInvalid;
-  }
-}
-
-export function requestPosts() {
+export function requestPosts(filter) {
   return {
     type: 'POSTS',
     payload: {
       promise: new Promise((resolve, reject) => {
         axios
-          .get(redditAPISrc)
+          .get(redditAPISrc(filter))
           .then(response => resolve(response), err => reject(err));
       })
+    },
+    meta: {
+      filter: filter
     }
   };
 }

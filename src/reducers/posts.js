@@ -7,7 +7,6 @@ import {
 
 const posts = (
   state = {
-    items: [],
     isRequesting: false,
     isInvalid: false
   },
@@ -22,7 +21,9 @@ const posts = (
       return Object.assign({}, state, {
         isRequesting: false,
         isInvalid: false,
-        items: action.payload.data.data.children
+        [action.meta.filter]: {
+          items: action.payload.data.data.children
+        }
       });
     case POSTS_REJECTED:
       return Object.assign({}, state, {
