@@ -41,6 +41,8 @@ class App extends Component {
             </nav>
           </header>
           <Switch>
+            {/* This redirection is used to solve filter error caused by hosting on ghpages*/}
+            <Redirect from="/switch-deals" to="/hot" />
             <Route path="/:filter" component={ListView} />
             <Redirect from="/" to="/hot" />
           </Switch>

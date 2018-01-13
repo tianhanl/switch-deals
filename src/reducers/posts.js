@@ -28,7 +28,10 @@ const posts = (
     case POSTS_REJECTED:
       return Object.assign({}, state, {
         isRequesting: false,
-        isInvalid: true
+        isInvalid: true,
+        [action.meta.filter]: {
+          items: null
+        }
       });
     case ADD_POST:
       return Object.assign({}, state, {
